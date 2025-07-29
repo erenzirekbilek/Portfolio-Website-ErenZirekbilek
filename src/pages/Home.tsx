@@ -22,7 +22,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-                Frontend Developer passionate about creating beautiful, functional, and user-friendly web experiences
+                Software Developer passionate about creating beautiful, functional, and user-friendly web experiences
               </p>
             </motion.div>
 
@@ -54,7 +54,7 @@ const Home = () => {
               className="flex justify-center space-x-6"
             >
               <a
-                href="https://github.com"
+                href="https://github.com/Erenzirekbilek"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition-colors duration-200"
@@ -62,7 +62,7 @@ const Home = () => {
                 <Github className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/erenzirekbilek/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition-colors duration-200"
@@ -70,7 +70,7 @@ const Home = () => {
                 <Linkedin className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:erenzirekbilek@hotmail.com"
                 className="p-3 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition-colors duration-200"
               >
                 <Mail className="w-6 h-6 text-gray-700 dark:text-gray-300" />
@@ -101,17 +101,17 @@ const Home = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
             {[
               'React',
-              'TypeScript',
+              'Java',
               'JavaScript',
-              'Next.js',
+              'Unity',
               'Tailwind CSS',
               'Node.js',
               'Git',
               'Figma',
               'MongoDB',
-              'PostgreSQL',
+              'MySQL',
               'Python',
-              'AWS'
+              'Postman'
             ].map((skill, index) => (
               <motion.div
                 key={skill}

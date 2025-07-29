@@ -8,64 +8,32 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with user authentication, product catalog, and payment integration.',
-      image: 'https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Stripe'],
-      category: 'web',
-      github: 'https://github.com',
-      demo: 'https://example.com'
+      title: 'Gridlock Rush',
+      description: ' Unity ve C# kullanılarak geliştirilen bu oyun, oyunculara gerçekçi ve zorlu park deneyimleri sunan bir araba park simülasyonudur. Oyunda farklı seviyelerde tasarlanmış karmaşık ve dikkat gerektiren parkurlar bulunmaktadır. Her parkur, sürücülük becerilerini test edecek engeller ve dar alanlar içerir. Oyuncular, aracın kontrolünü hassas şekilde yöneterek park alanlarına doğru şekilde park etmeyi hedefler. Oyun, sürüş fiziği ve çevresel detaylarla gerçekçilik kazandırılmış olup, kullanıcı dostu arayüzü ile mobil cihazlarda rahatlıkla oynanabilir. ',
+      image: './Game_Image.jpg',
+      tech: ['Unity', 'C#'],
+      category: 'Mobile',
+      github: 'https://github.com/erenzirekbilek/Unity-Projects',
+      demo: 'https://play.google.com/store/apps/details?id=com.OPCDSTUDIO.CarGame&hl=tr'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates and team features.',
-      image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React', 'Firebase', 'Material-UI', 'Redux'],
+      title: 'Student-Management-System',
+      description: 'Bu proje, React JS, Node JS, Express JS ve MySQL teknolojileri kullanılarak geliştirilmiş kapsamlı bir öğrenci otomasyon sistemidir. Uygulama, öğrencilerin ders kayıtları, not takibi, duyurular ve kişisel bilgilerini yönetebilecekleri kullanıcı dostu bir arayüz sağlar.',
+      image: './StudentMainMenu.png',
+      tech: ['React', 'Node JS', 'Express JS','Bootstrap' ,'MySQL', 'Redux'],
       category: 'web',
-      github: 'https://github.com',
-      demo: 'https://example.com'
+      github: 'https://github.com/erenzirekbilek/student-management-system',
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard with location-based forecasts and interactive charts.',
-      image: 'https://images.pexels.com/photos/1446076/pexels-photo-1446076.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React', 'Chart.js', 'OpenWeather API', 'Tailwind CSS'],
+      title: 'Cropville',
+      description: 'ReactJS tabanlı bir tarım oyunu geliştirildi. Bu proje, React JS, HTML ve CSS kullanılarak uygulanmış olup, zamanlayıcılar ve günlük görevler gibi özellikler içermektedir.',
+      image: './cropville.png',
+      tech: ['React', 'Node JS', 'Express JS', 'Bootstrap'],
       category: 'web',
-      github: 'https://github.com',
-      demo: 'https://example.com'
+      github: 'https://github.com/erenzirekbilek/cropville',
     },
-    {
-      id: 4,
-      title: 'Portfolio Website',
-      description: 'A modern portfolio website showcasing responsive design and smooth animations.',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React', 'Framer Motion', 'Tailwind CSS', 'TypeScript'],
-      category: 'web',
-      github: 'https://github.com',
-      demo: 'https://example.com'
-    },
-    {
-      id: 5,
-      title: 'Mobile Banking App',
-      description: 'A secure mobile banking application with biometric authentication and transaction tracking.',
-      image: 'https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React Native', 'Redux', 'Firebase', 'Biometric Auth'],
-      category: 'mobile',
-      github: 'https://github.com',
-      demo: 'https://example.com'
-    },
-    {
-      id: 6,
-      title: 'Fitness Tracker',
-      description: 'A comprehensive fitness tracking application with workout plans and progress analytics.',
-      image: 'https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React Native', 'SQLite', 'Charts', 'Health Kit'],
-      category: 'mobile',
-      github: 'https://github.com',
-      demo: 'https://example.com'
-    }
   ];
 
   const categories = [

@@ -6,8 +6,8 @@ const About = () => {
   const skills = [
     {
       icon: <Code className="w-8 h-8" />,
-      title: 'Frontend Development',
-      description: 'Expert in React, TypeScript, and modern JavaScript frameworks',
+      title: 'Software Development',
+      description: 'React JS, Java, and modern JavaScript frameworks',
       color: 'bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400'
     },
     {
@@ -45,11 +45,9 @@ const About = () => {
                 About Me
               </h1>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                I'm a passionate frontend developer with a love for creating beautiful, functional, and user-friendly web experiences. With expertise in modern JavaScript frameworks and a keen eye for design, I bring ideas to life through code.
-              </p>
-              <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-                I specialize in React, TypeScript, and modern frontend technologies. I'm always eager to learn new technologies and take on challenging projects that push the boundaries of what's possible on the web.
-              </p>
+IoT ve web teknolojileri gibi alanlarda edindiğim deneyimlerle sürekli öğrenmeyi ve üretmeyi hedefleyen bir geliştiriciyim.
+React.js ile modern ve kullanıcı dostu web arayüzleri geliştirirken, Python ve Raspberry Pi kullanarak IoT tabanlı çözümler üzerinde çalıştım. Ayrıca Unity ile mobil oyun geliştirme konusuna hobi olarak ilgi duyuyor, teknik ve yaratıcı yönümü bu alanda geliştiriyorum. Farklı disiplinlerde kazandığım bu deneyimler; analitik düşünme, problem çözme ve kullanıcı odaklı yazılım geliştirme becerilerimi pekiştirdi. Hedefim, işlevsel, ölçeklenebilir ve yenilikçi yazılım çözümleri üreterek teknoloji ile insan yaşamı arasında güçlü bir bağ kurmaktır.            </p>
+             
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-200">
                   <Award className="w-5 h-5 mr-2" />
@@ -151,22 +149,34 @@ const About = () => {
             
             {[
               {
-                year: '2024',
-                title: 'Senior Frontend Developer',
-                company: 'Tech Company',
-                description: 'Leading frontend development initiatives and mentoring junior developers'
+                year: '2024-2025',
+                title: 'Software Engineer',
+                company: 'Hometech',
+                description: 'Python Flask tabanlı bir web arayüzü geliştirilerek, TLS destekli güvenli MQTT haberleşmesi ve uzaktan MIMO anten yönlendirmesi sağlanmış; ayrıca TÜBİTAK destekli projelerde planlama, dokümantasyon ve süreç takibi görevleri üstlenilmiştir.'
               },
               {
                 year: '2023',
-                title: 'Frontend Developer',
-                company: 'Digital Agency',
-                description: 'Developed responsive web applications using React and TypeScript'
+                title: 'Electric Electronic Engineer',
+                company: 'AKE Elevator and Disabled Systems',
+                description: 'Python ile bakım ve arıza verileri analiz edildi. Pandas ve PyTorch kütüphaneleriyle sistematik müdahale yapısı oluşturuldu. Asansör ana kontrol kartı yazılım güncellemeleri ve optimizasyonu üzerinde çalışıldı'
+              },
+              {
+                year: '2023',
+                title: 'Long Term Intern',
+                company: 'KSB Pump Valve Industry and Trade Inc.',
+                description: 'DCtoPWM dönüştürücü ve motor hız kontrol projelerinde tasarım, simülasyon ve test süreçlerine aktif olarak rol alındı. SPI haberleşme protokolü kullanılarak kartlar arası iletişim gerçekleştirildi. ARM ve Atmel işlemcilerle sürücü kartı yazılımı üzerinde geliştirmeler yapıldı.'
               },
               {
                 year: '2022',
-                title: 'Junior Developer',
-                company: 'Startup',
-                description: 'Started my professional journey building modern web applications'
+                title: 'Hardware Design Intern',
+                company: 'KSB Pump Valve Industry and Trade Inc.',
+                description: 'Motor sürücü kartı projelerinin tasarım ve test süreçlerine aktif olarak katılım sağlandı. Şematik ve PCB tasarımları Altium ve OrCAD kullanılarak yapıldı. Motor sürücü devreleri Proteus ve LT Spice yazılımları kullanılarak simüle edildi.'
+              },
+              {
+                year: '2021',
+                title: 'Software Developer Intern',
+                company: 'Medron Technology',
+                description: 'Karayolları durum tespiti için yoldaki sıcaklık, basınç ve nem verileri ölçülüp SPI haberleşme protokolü kullanılarak uzak mesafeli  LoRa modülleri arasında iletildi. MQTT protokolü aracılığıyla sensörlerden toplanan veriler, merkezi bir bulut sunucusuna aktarıldı.RS485 ve I2C protokolleri kullanılarak sıcaklık ve basınç sensörlerinden kalman algoritması kullanılarak veri toplandı. Projelerde STM, ESP32, Arduino ve Raspberry Pi 3 kartları kullanıldı. '
               }
             ].map((item, index) => (
               <motion.div

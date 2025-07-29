@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Erenzirek.github.io/PORTFOLIO-WEBSITE-ERENZIREKBILEK",
+  "homepage": "https://Erenzirek.github.io/Portfolio-Website-ErenZirekbilek",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
